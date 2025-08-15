@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="canonical" href="/ingredients.html">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="icon" href="./assets/images/favicon.svg" type="image/svg+xml">
+    <link rel="alternate icon" href="./favicon.ico" type="image/x-icon">
+    <title>Ingredients — Te Curo</title>
+    <meta name="description" content="Ingredient transparency: learn about tamanu oil, aloe vera, propolis, beeswax, jojoba oil, shea butter, tea tree oil, green tea.">
+    <meta property="og:title" content="Ingredients — Te Curo">
+    <meta property="og:description" content="Learn about our key ingredients and their benefits.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="/ingredients.html">
+    <meta property="og:image" content="/favicon.ico">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Ingredients — Te Curo">
+    <meta name="twitter:description" content="Ingredient transparency and benefits.">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./assets/styles/base.css">
+    <link rel="stylesheet" href="./assets/styles/theme.css">
+    <link rel="stylesheet" href="./assets/styles/components.css">
+  </head>
+<body class="bg-cream-50 text-stone-900">
+  <header class="sticky top-0 z-40 bg-white/80 backdrop-blur border-b border-stone-200">
+    <div class="container mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="./index.html" class="flex items-baseline gap-2">
+        <span class="text-2xl font-serif tracking-wide">Te Curo</span>
+        <span class="text-xs uppercase tracking-widest text-stone-500">EST. 2025</span>
+      </a>
+      <nav>
+        <button id="menu-toggle" class="md:hidden p-2" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-menu"><i data-feather="menu"></i></button>
+        <ul id="nav-menu" class="hidden md:flex md:items-center md:gap-6 text-sm font-medium">
+          <li><a class="nav-link" href="./products.html">Products</a></li>
+          <li><a class="nav-link" href="./ingredients.html">Ingredients</a></li>
+          <li><a class="nav-link" href="./education.html">Education</a></li>
+          <li><a class="nav-link" href="./about.html">About</a></li>
+          <li><a class="button button-primary" href="./contact.html">Newsletter</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+  <main id="main" class="container mx-auto px-4 py-10">
+    <h1 class="text-3xl font-serif mb-6">Ingredients</h1>
+
+    <div class="card mb-6">
+      <div class="card-body">
+        <input id="search" type="search" placeholder="Search ingredients (e.g., tamanu, aloe, antioxidant)" class="button" style="width:100%">
+      </div>
+    </div>
+
+    <div id="ingredient-list" class="grid md:grid-cols-2 gap-6"></div>
+  </main>
+
+  <footer class="border-t border-stone-200">
+    <div class="container mx-auto px-4 py-10 text-sm text-stone-600">
+      <div class="font-serif">Te Curo — I take care of you</div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <script src="./assets/scripts/main.js"></script>
+  <script src="./assets/scripts/ingredients.js"></script>
+</body>
+</html> 

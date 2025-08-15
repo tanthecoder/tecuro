@@ -1,0 +1,54 @@
+[
+  {
+    "id": "balancing-face-oil",
+    "name": "Balancing Face Oil",
+    "category": "face",
+    "concerns": ["acne", "hormonal", "sensitive"],
+    "traits": { "fragranceFree": true, "alcoholFree": true, "syntheticPreservativeFree": true },
+    "suit": "earthy",
+    "heroImage": "./assets/images/product-earthy.svg",
+    "shortDescription": "Lightweight blend with tamanu oil and jojoba to soothe and balance acne-prone skin.",
+    "keyIngredients": ["tamanu-oil", "jojoba-oil", "green-tea"],
+    "link": "#",
+    "availability": "comingSoon"
+  },
+  {
+    "id": "breezy-toner",
+    "name": "Breezy Toner",
+    "category": "face",
+    "concerns": ["sensitive", "kp"],
+    "traits": { "fragranceFree": true, "alcoholFree": true, "syntheticPreservativeFree": true },
+    "suit": "breezy",
+    "heroImage": "./assets/images/toner-breezy.png",
+    "shortDescription": "Aloe vera and green tea calm redness and support barrier health.",
+    "keyIngredients": ["aloe-vera", "green-tea", "shea-butter"],
+    "link": "#",
+    "availability": "comingSoon"
+  },
+  {
+    "id": "calming-aloe-serum",
+    "name": "Calming Aloe Serum",
+    "category": "face",
+    "concerns": ["sensitive", "kp"],
+    "traits": { "fragranceFree": true, "alcoholFree": true, "syntheticPreservativeFree": true },
+    "suit": "breezy",
+    "heroImage": "./assets/images/product-breezy.svg",
+    "shortDescription": "Aloe vera and green tea calm redness and support barrier health.",
+    "keyIngredients": ["aloe-vera", "green-tea", "shea-butter"],
+    "link": "#",
+    "availability": "comingSoon"
+  },
+  {
+    "id": "propolis-restore-balm",
+    "name": "Propolis Restore Balm",
+    "category": "face",
+    "concerns": ["sensitive", "kp"],
+    "traits": { "fragranceFree": true, "alcoholFree": true, "syntheticPreservativeFree": true },
+    "suit": "rosy",
+    "heroImage": "./assets/images/product-rosy.svg",
+    "shortDescription": "Beeswax and propolis lock in moisture for a dewy, nourished glow.",
+    "keyIngredients": ["beeswax", "propolis", "shea-butter"],
+    "link": "#",
+    "availability": "comingSoon"
+  }
+] 

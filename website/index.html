@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="canonical" href="/index.html">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="icon" href="./assets/images/favicon.svg" type="image/svg+xml">
+    <link rel="alternate icon" href="./favicon.ico" type="image/x-icon">
+    <title>Te Curo — Healed by Nature</title>
+    <meta name="description" content="Te Curo — I take care of you. Natural skincare that is not cancerogenic, fragrance-free, endocrine-safe. EST. 2025.">
+    <meta property="og:title" content="Te Curo — Healed by Nature">
+    <meta property="og:description" content="Natural skincare with transparent ingredients. EST. 2025.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="/index.html">
+    <meta property="og:image" content="/favicon.ico">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Te Curo — Healed by Nature">
+    <meta name="twitter:description" content="Natural skincare with transparent ingredients.">
+    <script type="application/ld+json">{
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Te Curo",
+      "url": "/index.html",
+      "logo": "/favicon.ico"
+    }</script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./assets/styles/base.css">
+    <link rel="stylesheet" href="./assets/styles/theme.css">
+    <link rel="stylesheet" href="./assets/styles/components.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+  </head>
+<body class="bg-cream-50 text-stone-900">
+  <header class="sticky top-0 z-40 bg-white/80 backdrop-blur border-b border-stone-200">
+    <div class="container mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="./index.html" class="flex items-baseline gap-2">
+        <span class="text-2xl font-serif tracking-wide">Te Curo</span>
+        <span class="text-xs uppercase tracking-widest text-stone-500">EST. 2025</span>
+      </a>
+      <nav>
+        <button id="menu-toggle" class="md:hidden p-2" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-menu">
+          <i data-feather="menu"></i>
+        </button>
+        <ul id="nav-menu" class="hidden md:flex md:items-center md:gap-6 text-sm font-medium">
+          <li><a class="nav-link" href="./products.html">Products</a></li>
+          <li><a class="nav-link" href="./ingredients.html">Ingredients</a></li>
+          <li><a class="nav-link" href="./education.html">Education</a></li>
+          <li><a class="nav-link" href="./about.html">About</a></li>
+          <li><a class="button button-primary" href="./contact.html">Newsletter</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+  <main id="main">
+    <section class="relative overflow-hidden bg-gradient-to-b from-cream-100 to-white">
+      <div class="container mx-auto px-4 py-20 grid md:grid-cols-2 items-center gap-10">
+        <div data-aos="fade-up">
+          <h1 class="text-4xl md:text-6xl font-serif leading-tight">HEALED BY NATURE</h1>
+          <p class="mt-3 text-stone-600">Te Curo — I take care of you. Product suits vibes: Earthy, dewy, gold, nostalgic; Nostalgic, rosy, lover; Cool, freeing, breezy, fresh.</p>
+          <div class="mt-8 flex gap-4">
+            <a href="./products.html" class="button button-primary">Shop Products</a>
+            <a href="./ingredients.html" class="button button-ghost">Ingredient Transparency</a>
+          </div>
+        </div>
+        <div class="md:justify-self-end" data-aos="fade-left">
+          <div class="hero-image"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container mx-auto px-4 py-16">
+      <h2 class="section-title">Brand Pillars</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="card" data-aos="fade-up"><h3 class="card-title">100% naturally derived</h3><p class="card-body">Organic and ethically sourced.</p></div>
+        <div class="card" data-aos="fade-up" data-aos-delay="100"><h3 class="card-title">Gentle yet powerful</h3><p class="card-body">Fragrance-free, alcohol-free, and no synthetic preservatives.</p></div>
+        <div class="card" data-aos="fade-up" data-aos-delay="200"><h3 class="card-title">Transparent</h3><p class="card-body">Know every ingredient and why it’s there.</p></div>
+      </div>
+    </section>
+
+    <section class="bg-cream-100">
+      <div class="container mx-auto px-4 py-16">
+        <h2 class="section-title">Featured Product Suits</h2>
+        <div id="featured-suits" class="grid sm:grid-cols-2 md:grid-cols-3 gap-6"></div>
+        <div class="mt-8"><a class="button button-ghost" href="./products.html">View all products</a></div>
+      </div>
+    </section>
+
+    <section class="container mx-auto px-4 py-16">
+      <h2 class="section-title">Ingredient Highlights</h2>
+      <p class="text-stone-600">Tamanu oil, aloe vera, propolis, beeswax, jojoba oil, shea butter, tea tree oil, green tea.</p>
+    </section>
+  </main>
+
+  <footer class="border-t border-stone-200">
+    <div class="container mx-auto px-4 py-10 grid md:grid-cols-3 gap-8 text-sm text-stone-600">
+      <div>
+        <div class="font-serif text-lg">Te Curo</div>
+        <div>I take care of you</div>
+      </div>
+      <div>
+        <div class="font-medium mb-2">Explore</div>
+        <ul class="space-y-1">
+          <li><a class="nav-link" href="./about.html">About</a></li>
+          <li><a class="nav-link" href="./education.html">Education</a></li>
+          <li><a class="nav-link" href="./ingredients.html">Ingredients</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="font-medium mb-2">Legal</div>
+        <ul class="space-y-1">
+          <li><a class="nav-link" href="./legal/privacy.html">Privacy</a></li>
+          <li><a class="nav-link" href="./legal/terms.html">Terms</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <script src="./assets/scripts/main.js"></script>
+      <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        window.TeCuro && window.TeCuro.renderFeaturedSuits && window.TeCuro.renderFeaturedSuits('featured-suits', 3);
+      });
+    </script>
+</body>
+</html> 

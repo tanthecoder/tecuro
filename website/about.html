@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="canonical" href="/about.html">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="icon" href="./assets/images/favicon.svg" type="image/svg+xml">
+    <link rel="alternate icon" href="./favicon.ico" type="image/x-icon">
+    <title>About — Te Curo</title>
+    <meta name="description" content="Te Curo — I take care of you. Purpose: Create a skincare brand that is organic, using all natural ingredients; Nourishing and healing skin.">
+    <meta property="og:title" content="About — Te Curo">
+    <meta property="og:description" content="Our purpose and values: healed by nature.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="/about.html">
+    <meta property="og:image" content="/favicon.ico">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="About — Te Curo">
+    <meta name="twitter:description" content="Te Curo — I take care of you.">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./assets/styles/base.css">
+    <link rel="stylesheet" href="./assets/styles/theme.css">
+    <link rel="stylesheet" href="./assets/styles/components.css">
+  </head>
+<body class="bg-cream-50 text-stone-900">
+  <header class="sticky top-0 z-40 bg-white/80 backdrop-blur border-b border-stone-200">
+    <div class="container mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="./index.html" class="flex items-baseline gap-2">
+        <span class="text-2xl font-serif tracking-wide">Te Curo</span>
+        <span class="text-xs uppercase tracking-widest text-stone-500">EST. 2025</span>
+      </a>
+      <nav x-data="{ open: false }" class="">
+        <button class="md:hidden p-2" @click="open = !open" aria-label="Toggle menu"><i data-feather="menu"></i></button>
+        <ul :class="open ? 'block' : 'hidden'" class="md:flex md:items-center md:gap-6 text-sm font-medium">
+          <li><a class="nav-link" href="./products.html">Products</a></li>
+          <li><a class="nav-link" href="./ingredients.html">Ingredients</a></li>
+          <li><a class="nav-link" href="./education.html">Education</a></li>
+          <li><a class="nav-link" href="./about.html">About</a></li>
+          <li><a class="button button-primary" href="./contact.html">Newsletter</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+  <main id="main" class="container mx-auto px-4 py-10">
+    <h1 class="text-3xl font-serif mb-6">About</h1>
+
+    <article class="prose max-w-none">
+      <p><strong>Te Curo</strong> — Meaning: <em>I take care of you</em>. <strong>EST. 2025</strong>.</p>
+      <p><strong>Purpose:</strong> Create a skincare brand that is organic, using all natural ingredients. Nourishing and healing skin. Ingredient transparency.</p>
+      <p><strong>Target audience:</strong> 13–30 years old.</p>
+      <p><strong>Natural skincare that is not:</strong> Cancerogenic; Causes allergies (Fragrances); Endocrine disruptor; Hard drugs (birth control pill, Accutane); Unknown ingredients.</p>
+      <p><strong>Vibes:</strong> Product suits vibes: Earthy, dewy, gold, nostalgic; Nostalgic, rosy, lover; Cool, freeing, breezy, fresh.</p>
+      <p><strong>Pain points:</strong> Acne prone skin; Hormonal acne; Sensitive skin; Keratosis Pilaris; Overwhelmed by the long list of ingredients; Feeling hopeless.</p>
+      <p><strong>Wants:</strong> Simple yet powerful skincare; Transparent and trustworthy ingredients; A healing ritual, not just a routine.</p>
+    </article>
+  </main>
+
+  <footer class="border-t border-stone-200">
+    <div class="container mx-auto px-4 py-10 text-sm text-stone-600">
+      <div class="font-serif">Te Curo — I take care of you</div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/feather-icons"></script>
+  <script src="./assets/scripts/main.js"></script>
+</body>
+</html> 

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="12" fill="#3f5d49"/>
+  <circle cx="44" cy="12" r="12" fill="#bfa77a" opacity="0.7"/>
+  <path d="M14 40 C 20 28, 36 28, 50 40" stroke="#bfa77a" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <text x="16" y="38" font-family="Verdana, sans-serif" font-size="16" font-weight="700" fill="#fff">TC</text>
+</svg> 

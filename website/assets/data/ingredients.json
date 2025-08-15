@@ -1,0 +1,98 @@
+[
+  {
+    "id": "tamanu-oil",
+    "name": "Tamanu Oil",
+    "aliases": ["Calophyllum Inophyllum Seed Oil"],
+    "description": "Rich in fatty acids; traditionally used for its soothing and restorative properties.",
+    "sources": ["Pressed from tamanu seeds"],
+    "caution": "Nut-sensitive individuals should patch test.",
+    "tags": ["soothing", "restorative", "anti-inflammatory"],
+    "references": [],
+    "isCommonAllergen": false,
+    "isEndocrineDisruptor": false
+  },
+  {
+    "id": "aloe-vera",
+    "name": "Aloe Vera",
+    "aliases": ["Aloe Barbadensis Leaf Juice"],
+    "description": "Hydrating gel known to calm and moisturize sensitive skin.",
+    "sources": ["Aloe plant leaves"],
+    "caution": "Generally well-tolerated; patch test recommended.",
+    "tags": ["hydrating", "calming"],
+    "references": [],
+    "isCommonAllergen": false,
+    "isEndocrineDisruptor": false
+  },
+  {
+    "id": "propolis",
+    "name": "Propolis",
+    "aliases": ["Bee Propolis"],
+    "description": "Bee resin with protective and soothing properties.",
+    "sources": ["Collected by bees from tree buds"],
+    "caution": "Avoid if allergic to bee products.",
+    "tags": ["soothing", "protective"],
+    "references": [],
+    "isCommonAllergen": true,
+    "isEndocrineDisruptor": false
+  },
+  {
+    "id": "beeswax",
+    "name": "Beeswax",
+    "aliases": ["Cera Alba"],
+    "description": "Occlusive wax that helps lock in moisture.",
+    "sources": ["Bee hives"],
+    "caution": "Avoid if allergic to bee products.",
+    "tags": ["occlusive", "barrier"],
+    "references": [],
+    "isCommonAllergen": true,
+    "isEndocrineDisruptor": false
+  },
+  {
+    "id": "jojoba-oil",
+    "name": "Jojoba Oil",
+    "aliases": ["Simmondsia Chinensis Seed Oil"],
+    "description": "Lightweight ester wax similar to skin’s sebum; balances and softens.",
+    "sources": ["Pressed from jojoba seeds"],
+    "caution": "Generally well-tolerated.",
+    "tags": ["balancing", "softening"],
+    "references": [],
+    "isCommonAllergen": false,
+    "isEndocrineDisruptor": false
+  },
+  {
+    "id": "shea-butter",
+    "name": "Shea Butter",
+    "aliases": ["Butyrospermum Parkii (Shea) Butter"],
+    "description": "Rich emollient that nourishes and supports the skin barrier.",
+    "sources": ["Shea tree nuts"],
+    "caution": "Nut-sensitive individuals should patch test.",
+    "tags": ["nourishing", "emollient"],
+    "references": [],
+    "isCommonAllergen": false,
+    "isEndocrineDisruptor": false
+  },
+  {
+    "id": "tea-tree-oil",
+    "name": "Tea Tree Oil",
+    "aliases": ["Melaleuca Alternifolia Leaf Oil"],
+    "description": "Aromatic essential oil often used for blemish-prone skin.",
+    "sources": ["Distilled from tea tree leaves"],
+    "caution": "Essential oil; dilute and patch test; avoid if sensitive.",
+    "tags": ["clarifying"],
+    "references": [],
+    "isCommonAllergen": true,
+    "isEndocrineDisruptor": false
+  },
+  {
+    "id": "green-tea",
+    "name": "Green Tea",
+    "aliases": ["Camellia Sinensis Leaf Extract"],
+    "description": "Antioxidant-rich extract that helps soothe and protect.",
+    "sources": ["Tea leaves"],
+    "caution": "Generally well-tolerated.",
+    "tags": ["antioxidant", "soothing"],
+    "references": [],
+    "isCommonAllergen": false,
+    "isEndocrineDisruptor": false
+  }
+] 

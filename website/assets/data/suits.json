@@ -1,0 +1,20 @@
+[
+  {
+    "id": "earthy",
+    "name": "Earthy / Dewy / Gold",
+    "description": "Grounded neutrals with gold accents; dewy and warm.",
+    "bannerImage": "./assets/images/banner-earthy.svg"
+  },
+  {
+    "id": "rosy",
+    "name": "Nostalgic / Rosy / Lover",
+    "description": "Soft rosy hues with nostalgic warmth.",
+    "bannerImage": "./assets/images/banner-rosy.svg"
+  },
+  {
+    "id": "breezy",
+    "name": "Cool / Freeing / Breezy / Fresh",
+    "description": "Airy cool tones, light and refreshing.",
+    "bannerImage": "./assets/images/banner-breezy.svg"
+  }
+] 

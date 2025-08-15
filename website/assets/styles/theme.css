@@ -1,0 +1,8 @@
+[data-theme="earthy"] { --accent: var(--color-earth-700); }
+[data-theme="rosy"] { --accent: var(--color-rose-500); }
+[data-theme="breezy"] { --accent: var(--color-breeze-500); }
+
+.button-primary { background-color: var(--accent, var(--color-earth-700)); border-color: var(--accent, var(--color-earth-700)); }
+.button-ghost { color: var(--accent, var(--color-earth-700)); border-color: var(--accent, var(--color-earth-700)); }
+
+.section-title { color: rgb(41, 37, 36); } 

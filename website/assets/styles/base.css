@@ -1,0 +1,33 @@
+:root {
+  --color-cream-50: #f8f6f2;
+  --color-cream-100: #f3efe8;
+  --color-gold-500: #bfa77a;
+  --color-earth-700: #3f5d49;
+  --color-rose-500: #b76e79;
+  --color-breeze-500: #5ba7a7;
+}
+
+html { scroll-behavior: smooth; }
+body { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, "Apple Color Emoji", "Segoe UI Emoji"; }
+
+.container { max-width: 1120px; }
+.bg-cream-50 { background-color: var(--color-cream-50); }
+.bg-cream-100 { background-color: var(--color-cream-100); }
+.text-gold-500 { color: var(--color-gold-500); }
+
+.section-title { font-size: 1.5rem; font-weight: 700; margin-bottom: 1rem; }
+
+.button { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.6rem 1rem; border-radius: 999px; border: 1px solid transparent; }
+.button-primary { background: var(--color-earth-700); color: #fff; }
+.button-ghost { background: transparent; color: var(--color-earth-700); border-color: var(--color-earth-700); }
+
+.nav-link { color: rgb(87, 83, 78); }
+.nav-link:hover { color: rgb(41, 37, 36); }
+
+.card { background: #fff; border: 1px solid rgb(231, 229, 228); border-radius: 1rem; padding: 1rem; box-shadow: 0 1px 2px rgba(0,0,0,0.03); }
+.card-title { font-weight: 600; margin-bottom: 0.25rem; }
+.card-body { color: rgb(87, 83, 78); }
+
+.hero-image { width: 100%; aspect-ratio: 4/3; border-radius: 1rem; background: linear-gradient(135deg, var(--color-cream-100), #fff 60%), radial-gradient(100% 100% at 100% 0%, rgba(191,167,122,0.25), transparent 60%); border: 1px solid rgb(231, 229, 228); }
+.skip-link { position: absolute; left: 0.5rem; top: 0; transform: translateY(-150%); background: #fff; color: #000; padding: 0.5rem 0.75rem; border: 1px solid rgb(231,229,228); border-radius: 0.25rem; z-index: 50; }
+.skip-link:focus { transform: translateY(0); } 
